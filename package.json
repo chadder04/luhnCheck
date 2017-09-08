@@ -1,0 +1,18 @@
+{
+  "name": "luhnalgorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "check.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chad Garrett",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
