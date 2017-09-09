@@ -1,5 +1,5 @@
 
-function luhnCheck(inputNum) {
+function check(inputNum) {
     var inputNumArray = inputNum.toString().split("").map(Number);
     var checkDigit = inputNumArray[inputNumArray.length - 1];
     var checkSum = 0;
@@ -25,7 +25,4 @@ function luhnCheck(inputNum) {
     }
 
 }
-
-console.log(luhnCheck(79927398713));  // true
-console.log(luhnCheck(79927398710));  // false
 
